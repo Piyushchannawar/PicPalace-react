@@ -7,10 +7,11 @@ const Navbar = () => {
       {/* logo  and  site name */}
       <div className='flex justify-between items-center'>
             {/* image */}
+            <img src="/picprismlogo.png" alt="logo " className='w-[50px]' />
             <Link to="/" className='font-bold text-3xl'>PicPalace</Link>
       </div>
       {/* list of other tabs */}
-      <ul className='flex gap-5 text-lg font-semibold text-gray-400'>
+      <ul className='flex gap-5 text-lg font-semibold text-gray-400 ml-5 sm:ml-0'>
         <Link to="/" className='hover:text-black cursor-pointer sm:p-2'>About</Link>
         <Link to="/" className='hover:text-black cursor-pointer sm:p-2'>Contect</Link>
         <Link to="/login" className='hover:text-black cursor-pointer sm:p-2'>Log In</Link>
