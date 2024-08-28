@@ -5,6 +5,7 @@ import Signup from "./pages/Signup"
 import SellerDashBoard from "./pages/SellerDashBoard"
 import BuyerDashboard from "./pages/BuyerDashboard"
 import Navbar from "./components/Navbar"
+import Footer from "./components/Footer"
 function App() {
 
   return (
@@ -18,6 +19,7 @@ function App() {
             <Route path="/sellerdashbord" element={<SellerDashBoard/>}/>
             <Route path="/buyerdashboard" element={<BuyerDashboard/>}/>
           </Routes>
+          <Footer />
        </BrowserRouter>
     </>
   )
